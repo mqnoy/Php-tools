@@ -1,6 +1,7 @@
 <?php
 // thx for :  https://stackoverflow.com/questions/9841635/how-can-i-ping-a-server-port-with-php
-$fileloc = "./iplist.ini";
+    //
+
 function getList_ip($file_ini){
     $data = parse_ini_file($file_ini, true);
     // $data = json_encode($rawdata);
@@ -43,6 +44,6 @@ function pinger($list){
         }
     }
 }
-
+$fileloc = "./iplist.ini";
 $listHost = getList_ip($fileloc);
 $listHost2 = pinger($listHost);
