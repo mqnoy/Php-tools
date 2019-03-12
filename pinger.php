@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 // thx for :  https://stackoverflow.com/questions/9841635/how-can-i-ping-a-server-port-with-php
 $fileloc = "./iplist.ini";
